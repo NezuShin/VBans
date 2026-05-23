@@ -1,5 +1,6 @@
 package de.strifel.vbans;
 
+import com.google.inject.Inject;
 import com.moandjiezana.toml.Toml;
 import com.velocitypowered.api.command.CommandMeta;
 import com.velocitypowered.api.event.ResultedEvent;
@@ -16,7 +17,6 @@ import org.bstats.charts.SingleLineChart;
 import org.bstats.velocity.Metrics;
 import org.slf4j.Logger;
 
-import javax.inject.Inject;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
